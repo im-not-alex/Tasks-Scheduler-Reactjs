@@ -1,0 +1,131 @@
+.App {
+    text-align: center;
+}
+
+.App-logo {
+    height: 40vmin;
+    pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
+}
+
+.App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.App-link {
+    color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.important {
+    color: red;
+}
+
+.no-double-click {
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table th {
+    border-right: 2px solid #dee2e6;
+
+}
+
+table td {
+    text-align: right;
+    vertical-align: middle !important;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+table tr:first-child th {
+    border-top: 0;
+}
+
+table tr th:last-child {
+    border-right: 0;
+}
+
+.text-r {
+    float: right;
+}
+
+.btn-nofocus:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.bg-violet {
+    background-color: #3f51b5 !important;
+    border-color: #3f51b5 !important;
+}
+
+.border-violet {
+    border-color: #3f51b5 !important;
+}
+
+.text-violet {
+    color: #3f51b5 !important;
+}
+
+.fill-violet {
+    fill: #3f51b5;
+}
+
+
+.text-blue {
+    color: #007bff !important;
+}
+
+.fill-blue {
+    fill: #007bff;
+}
+
+.fill-danger {
+    fill: #dc3545;
+}
+
+.fill-warning {
+    fill: #ffc107;
+}
+
+.fill-success {
+    fill: #28a745;
+}
+
+.no-radius {
+    border-radius: 0 !important;
+}
+
+.fix-height-38 {
+    height: 38px;
+}
